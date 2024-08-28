@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Chat</h1>
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+        </header>
+        <div class="message-display" id="message-display">
+        </div>
+        <div class="message-input">
+            <input type="file" id="file-input" accept="image/*,video/*" aria-label="Attach media">
+            <input type="text" id="message" placeholder="Type your message..." aria-label="Type your message">
+            <button id="send-button" aria-label="Send message">Send</button>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
