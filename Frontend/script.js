@@ -47,6 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 message: message,
                 to: '+14155238886',  //recipient's number
             };
+            if (file) {
+               data={
+                
+               }
+            }
             // console.log("formData ",formData);
 
             // Send the message to the backend

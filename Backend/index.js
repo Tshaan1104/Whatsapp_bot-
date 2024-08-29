@@ -13,7 +13,7 @@ const app = express();
 connectDB();
 
 app.use(cors()); // Enable CORS for all routes
-// Init Middleware
+// Init Middlew ared
 app.use(bodyParser.json());
 
 // Define Routes
