@@ -50,7 +50,7 @@ Start the Server:
 bash
 Copy code
 npm start
-The server will be running on http://localhost:6000.
+The server will be running on http://localhost:3000.
 
 Frontend Setup
 Prepare Frontend Files:
@@ -64,11 +64,11 @@ You can use a local server like Live Server in VSCode or another static file ser
 Testing with Postman
 Send a Message:
 
-Use Postman to send a POST request to http://localhost:6000/api/whatsapp/send-message with the form data message, to, and optionally file.
+Use Postman to send a POST request to http://localhost:3000/api/whatsapp/send-message with the form data message, to, and optionally file.
 
 Receive Messages:
 
-Set up a webhook in Twilio to point to http://localhost:6000/api/whatsapp/webhook to receive incoming messages.
+Set up a webhook in Twilio to point to http://localhost:3000/api/whatsapp/webhook to receive incoming messages.
 
 Handling Secrets
 Push Protection:
@@ -80,5 +80,3 @@ Troubleshooting
 
 500 Server Error: Check server logs for specific error messages. Ensure all required environment variables are correctly set.
 
-Contributing
-Feel free to submit issues or pull requests to improve the project. Make sure to follow the coding guidelines and ensure that all tests pass before submitting.
